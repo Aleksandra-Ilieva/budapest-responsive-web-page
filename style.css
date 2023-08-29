@@ -1,0 +1,240 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+/*
+icons
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-regular fa-user"></i>
+<i class="fa-solid fa-cart-shopping"></i>
+<i class="fa-solid fa-earth-americas"></i>
+
+<i class="fa-regular fa-hand-point-right"></i>
+
+colors
+background: rgb(154,110,15);
+background: linear-gradient(76deg, rgba(154,110,15,1) 27%, rgba(207,171,59,1) 62%);
+
+*/
+body {
+    position: relative;
+}
+
+header nav .first-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    padding-top: 20px;
+    color: #4f5774;
+    margin-right: 60px;
+
+}
+
+.first-nav li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-nav .second-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-top: 20px;
+    color: #4f5774;
+    margin-right: 60px;
+}
+
+.main-section {
+    background-image: url("img/slider.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.logo {
+    background: rgb(154, 110, 15);
+    background: linear-gradient(13deg, rgba(154, 110, 15, 1) 48%, rgba(207, 171, 59, 1) 83%);
+    width: 10%;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+
+}
+
+.logo img {
+    padding: 30px;
+
+}
+
+.info-main{
+    width: 30%;
+    position: absolute;
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 30px;
+    left: 160px;
+}
+
+
+.info-main button{
+    all: unset;
+    color: #fca400;
+    border: 2px solid white;
+    padding: 4px 8px;
+    margin-top: 20px;
+}
+
+.card-budapest{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   background: rgb(154,110,15);
+    background: linear-gradient(76deg, rgba(154,110,15,1) 27%, rgba(207,171,59,1) 62%);
+    color: white;
+
+}
+
+.card-budapest h2{
+     margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-budapest ul {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin-left: 150px;
+
+
+
+}
+.card-budapest ul li{
+    display: flex;
+
+    line-height: 2;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.card-budapest button{
+    all: unset;
+    border: 2px solid white;
+    padding: 4px 8px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.card-imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#4f5774 ;
+
+}
+
+.card-imgs h2{
+    margin-top: 20px;
+    font-weight: unset;
+}
+.card-imgs p{
+    margin-bottom: 10px;
+}
+
+.img-subSection{
+    display: flex;
+    gap: 18px;
+
+}
+.img-subSection img{
+    border-radius: 50%;
+    border: 2px solid #4f5774;
+    padding: 4px;
+}
+.img-subSection span{
+   font-size: 14px;
+    width: 200px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+}
+.img-subSection li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini{
+    background: rgb(154,110,15);
+    background: linear-gradient(76deg, rgba(154,110,15,1) 27%, rgba(207,171,59,1) 62%);
+    color: white;
+    padding-left: 10px;
+
+
+}
+
+.mini .wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mini .wrapper button{
+    all: unset;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    padding: 8px 16px;
+    cursor: pointer;
+
+}
+
+.mini h4{
+    align-self: flex-end;
+    margin-bottom: 2px;
+
+}
+footer p{
+    text-align: center;
+    padding: 8px 12px;
+}
+
+
+
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 200ms;
+}
+.mini .wrapper button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 200ms;
+}
+
+.img-subSection img:hover{
+    border: 2px dashed #4f5774;
+    transform: scale(1.1);
+    transition: 200ms;
+
+}
+i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 200ms;
+}
+
+.list-card-budapest .clear{
+    border-radius: 50%;
+    padding: 0px;
+    font-size: 10px;
+    color: red;
+    border: 2px solid red;
+    display: none;
+}
+

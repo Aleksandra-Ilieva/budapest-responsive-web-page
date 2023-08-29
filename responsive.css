@@ -1,0 +1,41 @@
+
+
+@media (max-width: 800px) {
+    .logo{
+        display: none;
+    }
+
+    header nav .first-nav{
+        flex-direction: column;
+    }
+
+    .hero-nav .second-nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-main{
+        display: none;
+    }
+    .card-budapest ul{
+        margin-left: 0px;
+        width: 60%;
+    }
+    .img-subSection{
+        flex-direction: column;
+    }
+
+    .mini .wrapper{
+       display: block;
+        text-align: center;
+    }
+    .mini p{
+        text-align: center;
+    }
+
+    .main-section{
+        background-position: center;
+        background-size: unset;
+    }
+
+}
